@@ -29,10 +29,16 @@
           </a>
           <ul class="link-main">
             <li>
-              <a class="link link-main-iteams" href="./index.html">Studio</a>
+              <!-- <div class="container-header-studio"> -->
+                <a class="link link-main-iteams link-studio" href="./index.html">Studio</a>
+              <!-- </div> -->
             </li>
-            <li><a class="link link-main-iteams" href="">Portfolio</a></li>
-            <li><a class="link link-main-iteams" href="">Contacts</a></li>
+            <li>
+              <a class="link link-main-iteams" href="">Portfolio</a>
+            </li>
+            <li>
+              <a class="link link-main-iteams" href="">Contacts</a>
+            </li>
           </ul>
         </nav>
 
@@ -68,30 +74,13 @@
       <section class="advantages">
         <div class="container">
           <h2 class="visually-hidden">Advantages</h2>
-          <ul class="list-icon-advantages">
-            <li class="lis-icon-item">
-              <svg class="icon-advantages">
-                <use href="./images/icons.svg.svg#icon-antenna"></use>
-              </svg>
-            </li>
-            <li class="lis-icon-item">
-              <svg class="icon-advantages">
-                <use href="./images/icons.svg.svg#icon-clock"></use>
-              </svg>
-            </li>
-            <li class="lis-icon-item">
-              <svg class="icon-advantages">
-                <use href="./images/icons.svg.svg#icon-diagram"></use>
-              </svg>
-            </li>
-            <li class="lis-icon-item">
-              <svg class="icon-advantages">
-                <use href="./images/icons.svg.svg#icon-astronaut"></use>
-              </svg>
-            </li>
-          </ul>
           <ul class="list-items">
             <li class="items">
+              <div class="list-icon-item">
+                <svg class="icon-advantages">
+                  <use href="./images/icons.svg.svg#icon-antenna"></use>
+                </svg>
+              </div>
               <h3 class="text-title soft-skills">Strategy</h3>
               <p class="text">
                 Our goal is to identify the business problem to walk away with
@@ -99,6 +88,11 @@
               </p>
             </li>
             <li class="items">
+              <div class="list-icon-item">
+                <svg class="icon-advantages">
+                  <use href="./images/icons.svg.svg#icon-clock"></use>
+                </svg>
+              </div>
               <h3 class="text-title soft-skills">Punctuality</h3>
               <p class="text">
                 Bring the key message to the brand's audience for the best price
@@ -106,6 +100,11 @@
               </p>
             </li>
             <li class="items">
+              <div class="list-icon-item">
+                <svg class="icon-advantages">
+                  <use href="./images/icons.svg.svg#icon-diagram"></use>
+                </svg>
+              </div>
               <h3 class="text-title soft-skills">Diligence</h3>
               <p class="text">
                 Research and confirm brands that present the strongest digital
@@ -113,6 +112,11 @@
               </p>
             </li>
             <li class="items">
+              <div class="list-icon-item">
+                <svg class="icon-advantages">
+                  <use href="./images/icons.svg.svg#icon-astronaut"></use>
+                </svg>
+              </div>
               <h3 class="text-title soft-skills">Technologies</h3>
               <p class="text">
                 Design practice focused on digital experiences. We bring forth a
@@ -365,15 +369,51 @@
     </main>
 
     <footer class="footer-style">
-      <div class="container">
-        <a class="logo logo-footer" href="./index.html"
-          >Web
-          <span class="studio-footer">Studio</span>
-        </a>
-        <p class="text-footer">
-          Increase the flow of customers and sales for your business with
-          digital marketing &#38; growth solutions.
-        </p>
+      <div class="container contaniner-footer">
+        <div>
+          <a class="logo logo-footer" href="./index.html"
+            >Web
+            <span class="studio-footer">Studio</span>
+          </a>
+          <p class="text-footer">
+            Increase the flow of customers and sales for your business with
+            digital marketing &#38; growth solutions.
+          </p>
+        </div>
+
+        <div class="container-social-footer">
+          <span class="social-footer">Social media</span>
+          <ul class="list-socials-footer">
+            <li class="item-socials-footer">
+              <a class="link-social-footer" href="">
+                <svg class="footer-socials-icon">
+                  <use href="./images/icons.svg.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item-socials-footer">
+              <a class="link-social" href="">
+                <svg class="footer-socials-icon">
+                  <use href="./images/icons.svg.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item-socials-footer">
+              <a class="link-social" href="">
+                <svg class="footer-socials-icon">
+                  <use href="./images/icons.svg.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item-socials-footer">
+              <a class="link-social" href="">
+                <svg class="footer-socials-icon">
+                  <use href="./images/icons.svg.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
