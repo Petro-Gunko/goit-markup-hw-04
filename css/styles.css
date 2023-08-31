@@ -221,6 +221,9 @@ ul {
   gap: 24px;
 }
 .list-icon-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 264px;
   height: 112px;
   flex-shrink: 0;
