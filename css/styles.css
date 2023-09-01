@@ -387,6 +387,10 @@ ul {
 .list-iteams-portfolio {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.list-iteams-portfolio:hover {
+  transform: translateY(0%);
+}
+
 
 .section-portfolio-img {
   position: relative;
@@ -408,14 +412,8 @@ ul {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.text-section-portfolio-img:hover{
-  transform: translateY(0%);
-}
 
-.list-iteams-portfolio:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
+
 
 .container-portfolio-items {
   padding: 32px 16px;
