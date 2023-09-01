@@ -292,7 +292,7 @@ ul {
 }
 
 .names-end-profesions {
-  padding: 32px 16px;
+  padding: 32px 0;
   text-align: center;
 }
 
@@ -317,7 +317,7 @@ ul {
   line-height: 1.2; /* 120% */
   letter-spacing: 0.4px;
   margin-bottom: 8px;
-  padding: 32px 0;
+  
 }
 
 .profession-our-team {
