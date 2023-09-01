@@ -317,7 +317,7 @@ ul {
   line-height: 1.2; /* 120% */
   letter-spacing: 0.4px;
   margin-bottom: 8px;
-  
+  padding: 32px 0;
 }
 
 .profession-our-team {
@@ -329,7 +329,8 @@ ul {
 }
 .list-socials {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 24px;
 }
 .item-socials {
   width: 40px;
