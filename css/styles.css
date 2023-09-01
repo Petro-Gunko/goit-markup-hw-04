@@ -317,7 +317,6 @@ ul {
   line-height: 1.2; /* 120% */
   letter-spacing: 0.4px;
   margin-bottom: 8px;
-  
 }
 
 .profession-our-team {
@@ -335,6 +334,7 @@ ul {
 .item-socials {
   width: 40px;
   height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-social {
   width: 100%;
@@ -347,6 +347,11 @@ ul {
   border-radius: 50%;
   background-color: #4d5ae5;
 }
+.link-social:hover, 
+.link-social:focus{
+  background-color: #404bbf;
+}
+
 .item-socials-icon {
   width: 16px;
   height: 16px;
