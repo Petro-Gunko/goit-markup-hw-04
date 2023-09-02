@@ -89,6 +89,15 @@ ul {
   height: auto;
 }
 
+
+.link-main-iteams {
+  color: #2E2F42;
+  display: block;
+  position: relative;
+  padding: 24px 0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .current {
   color: #404bbf;
 }
@@ -107,21 +116,9 @@ ul {
   margin: 20px 0 0 0;
 }
 
-.link-main-iteams {
-  display: block;
-  position: relative;
-  padding: 24px 0 0 0;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-
 .link-contacts {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* 
-.link-main .link {
-  color: #2e2f42;
-} */
 
 .link:focus,
 .link:hover {
@@ -150,9 +147,6 @@ ul {
 .link:hover {
   color: #404bbf;
 }
-
-
-
 
 /* section-1 */
 
@@ -248,7 +242,6 @@ ul {
   border-radius: 4px;
   border: 1px solid #8e8f99;
   background: #f4f4fd;
-  padding: 24px 102px;
   margin-bottom: 8px;
 }
 .icon-advantages {
@@ -362,7 +355,6 @@ ul {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  padding: 12px;
   border-radius: 50%;
   background-color: #4d5ae5;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -448,27 +440,22 @@ ul {
 }
 
 /* footer */
-
 .footer-style {
   flex-shrink: 0;
   background: #2e2f42;
   max-width: 100%;
   padding: 100px 0;
 }
-
 .contaniner-footer {
   display: flex;
   align-items: baseline;
 }
-
 .container-footer-logo {
   margin-right: 120px;
 }
-
 .studio-footer {
   color: #f4f4fd;
 }
-
 .text-footer {
   color: #f4f4fd;
   line-height: 1.5; /* 150% */
@@ -480,9 +467,6 @@ ul {
   margin-bottom: 16px;
 }
 
-.container-social-footer {
-  margin-left: 120px;
-}
 .social-footer {
   display: block;
   color: #fff;
@@ -509,24 +493,20 @@ ul {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  padding: 8px;
   border-radius: 50%;
   background-color: #4d5ae5;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .link-social-footer:hover,
 .link-social-footer:focus {
   background-color: #31d0aa;
 }
-
 .footer-socials-icon {
   width: 24px;
   height: 24px;
   flex-shrink: 0;
   fill: #f4f4fd;
 }
-
 .container {
   width: 1158px;
   padding: 0 15px;
